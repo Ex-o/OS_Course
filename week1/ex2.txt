@@ -1,0 +1,56 @@
+    1  cd ~
+    2  cd /usr/bin
+    3  cd ~
+    4  mkdir ~/week1
+    5  cd week1
+    6  ls -1
+    7  ls -r
+    8  ls -r /usr/bin 
+    9  ls -r /usr/bin > ex1.txt
+   10  grep "gcc" /usr/bin
+   11  grep -r "gcc" /usr/bin
+   12* grep -r "gcc" /usr/bin/ >
+   13  grep -ril "gcc" /usr/bin
+   14  grep -Ril "gcc" /usr/bin
+   15  grep -il "gcc" /usr/bin
+   16  grep -R "gcc" /usr/bin
+   17  grep -Ril "gcc" /usr/bin
+   18  ls | grep -Ril "gcc" /usr/bin
+   19  ls | grep touch -Ril "gcc" /usr/bin
+   20  ls | grep gcc -Ril /usr/bin
+   21  ls | grep gcc
+   22  ls | grep gcc /usr/bin/
+   23  ls | grep -Ril gcc /usr/bin/
+   24  ls | grep -Rl gcc /usr/bin/
+   25  ls | egrep -Rl gcc /usr/bin/
+   26  ls | egrep -Rl "gcc" /usr/bin/
+   27  ls | egrep -Rl *gcc* /usr/bin/
+   28  ls | egrep -Rl *gcc /usr/bin/
+   29  help locate
+   30  locate help
+   31  ls | grep -Rl gcc /usr/bin/
+   32  cd ~
+   33  cd /usr/bin
+   34  locare "gcc"
+   35  locate gcc
+   36  ack gcc
+   37  ack <gcc>
+   38  tree -f | grep gcc
+   39  find . -type f -name "*gcc
+
+   40  find . -type f -name "*gcc*"
+   41  find . -R -type f -name "*gcc*"
+   42  find -R . -type f -name "*gcc*"
+   43  find . -type f -name "*gcc*"
+   44  find . -type f -name -R "*gcc*"
+   45  find . -type f -name "*gcc*"
+   46  ls sort -r | find . -type f -name "*gcc*" 
+   47  ls -sort -r | find . -type f -name "*gcc*" 
+   48  sort -r | find . -type f -name "*gcc*" 
+   49  ls | sort -r | find . -type f -name "*gcc*" 
+   50  find . -type f -name "*gcc*" | sort -r
+   51  find . -type f -name "*gcc*" | sort -r > ~/week1/ex1.txt
+   52  cd ~/week1
+   53  ls
+   54  gedit ex1.txt
+   55  history > ./ex2.txt

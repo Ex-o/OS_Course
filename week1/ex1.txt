@@ -1,0 +1,6 @@
+./gcc-ranlib-6
+./gcc-nm-6
+./gcc-ar-6
+./gcc-6
+./c99-gcc
+./c89-gcc
