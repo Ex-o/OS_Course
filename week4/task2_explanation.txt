@@ -1,0 +1,3 @@
+At first we have one process and after each fork the number of processes is multiplied by 2 so the number of processes is 2^n -> 2^3 = 8
+
+When changing n to 5 we get 2^5 = 32
