@@ -1,0 +1,1 @@
+Process is created then after forking a new process is created and then printing PID is done by both processes so in total 3 prints occur.
