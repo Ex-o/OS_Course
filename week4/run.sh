@@ -1,2 +1,2 @@
-gcc -o task1 task1.c;
+gcc -o ex1 ex1.c;
 for i in $(seq 1 10); do ./ex1 ; done
