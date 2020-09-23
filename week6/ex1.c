@@ -32,7 +32,7 @@ void printData(){
 }
 int main(int argc, char const *argv[]){
 
-	scanf("%d", %processCount);
+	scanf("%d", &processCount);
 
 	printf("Arrival times:");
 	for(int i = 0; i < processCount; i++){
