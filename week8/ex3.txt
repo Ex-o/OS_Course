@@ -1,0 +1,24 @@
+top - 11:32:53 up  5:07,  1 user,  load average: 0.07, 0.27, 0.20
+Tasks: 148 total,   1 running, 147 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.0 us,  1.0 sy,  0.0 ni, 96.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  2035496 total,   245036 free,  1293884 used,   496576 buff/cache
+KiB Swap:  2094076 total,  2063564 free,    30512 used.   544904 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND    
+  1079 root      20   0 1909244 506456  46216 S   4.9 24.9  30:53.78 gnome-she+ 
+   947 root      20   0  323036  88652  16668 S   2.0  4.4   3:26.35 Xorg       
+  7275 root      20   0   42736   3636   3072 R   2.0  0.2   0:00.18 top        
+     1 root      20   0  137160   4624   3420 S   0.0  0.2   0:02.86 systemd    
+     2 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kthreadd   
+     3 root      20   0       0      0      0 S   0.0  0.0   0:00.17 ksoftirqd+ 
+     5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0+ 
+     7 root      20   0       0      0      0 S   0.0  0.0   0:04.03 rcu_sched  
+     8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh     
+     9 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration+ 
+    10 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/0 
+    11 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0    
+    12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1    
+    13 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/1 
+    14 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration+ 
+    15 root      20   0       0      0      0 S   0.0  0.0   0:00.74 ksoftirqd+ 
+    17 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1+ 

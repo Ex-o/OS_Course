@@ -1,1 +1,4 @@
-{\rtf1}
+              total        used        free      shared  buff/cache   available
+Mem:           1.9G        1.2G         90M         10M        636M        533M
+Swap:          2.0G         19M        2.0G
+Total:         3.9G        1.2G        2.1G

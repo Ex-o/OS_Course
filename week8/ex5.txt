@@ -1,0 +1,1 @@
+Physical addresses are actual hardware address of the RAM (physical memory) while virtual addresses are mappings used by the process that map to page table where it points to other addresses that are physical.
