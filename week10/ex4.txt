@@ -1,0 +1,6 @@
+./tmp/link1 count: 2
+./tmp/link1
+./tmp/file1
+./tmp/file1 count: 2
+./tmp/link1
+./tmp/file1

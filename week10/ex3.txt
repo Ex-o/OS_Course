@@ -1,0 +1,21 @@
+660:
+110 110 000 (user/group: read/write & others : none)
+775:
+111 111 101 (user/group: read/write/execute & others: read/write)
+777:
+111 111 111 (all: read/write/execute)
+
+After creating _ex3.txt:
+-rw-r--r-- 1 root root 0 Aug 19 13:10 _ex3.txt
+
+After removing execution permissions
+-rw-r--r-- 1 root root 0 Aug 19 13:11 _ex3.txt
+
+chmod uo+rwx (granting all permissions)
+-rwxr--rwx 1 root root 0 Aug 19 13:10 _ex3.txt
+
+chmod g=u (group = user permissions)
+-rwxrwxrwx 1 root root 0 Aug 19 13:10 _ex3.txt
+
+
+
