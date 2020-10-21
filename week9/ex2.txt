@@ -1,0 +1,8 @@
+HIT/MISS RATIO
+
+Incease:
+Sequence:
+1 2 3 1 2 3
+
+Explanation:
+This happens because the number of page frams is bigger than the number of pages so misses only occurs at initialization.
