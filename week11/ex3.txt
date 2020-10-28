@@ -1,0 +1,9 @@
+Program1:
+Hello
+Hello
+
+Program2:
+Hello
+
+In P1 the output buffer isn't flushed so it prints Hello a second time while.
+In P2 the bugger is flushed so both parent and child processes will print Hello once as it is line-buffered.
