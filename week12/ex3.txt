@@ -1,0 +1,9 @@
+BufferSize:  	real	user	sys
+Default		0.04s | 0.01s | 0.03s
+500		0.09s | 0.02s | 0.04s
+1000		0.14s | 0.04s | 0.09s
+O_SYNC		3.2m  | 0.07s | 0.13s
+
+Increasing buffer size increases IO operations, which results in reduced performance.
+
+O_SYNC has the worst performance since it provides integrity so a lot of flushing with every write operation.
