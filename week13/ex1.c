@@ -11,7 +11,7 @@ int alloc[processCnt][resourceCnt];
 int request[processCnt][resourceCnt];
 
 int check(int req[resourceCnt], int src[resourceCnt]) {
-	for (int i = 0; i < resourceCnt; ++i)
+	for (int i = 0; i < resourceCnt; i++)
 		if (req[i] > src[i])
 			return 0;
 	return 1;
@@ -25,22 +25,22 @@ int main() {
 		return 1;
 	}
 
-	for (int i = 0; i < resourceCnt; ++i) {
+	for (int i = 0; i < resourceCnt; i++) {
 		fscanf(input, "%d", &E[i]);
 	}
 
-	for (int i = 0; i < resourceCnt; ++i) {
+	for (int i = 0; i < resourceCnt; i++) {
 		fscanf(input, "%d", &A[i]);
 	}
 
-	for (int i = 0; i < processCnt; ++i) {
-		for (int j = 0; j < resourceCnt; ++j) {
+	for (int i = 0; i < processCnt; i++) {
+		for (int j = 0; j < resourceCnt; j++) {
 			fscanf(input, "%d", &alloc[i][j]);
 		}
 	}
 
-	for (int i = 0; i < processCnt; ++i) {
-		for (int j = 0; j < resourceCnt; ++j) {
+	for (int i = 0; i < processCnt; i++) {
+		for (int j = 0; j < resourceCnt; j++) {
 			fscanf(input, "%d", &request[i][j]);
 		}
 	}
@@ -52,9 +52,9 @@ int main() {
 	
 	while (closing) {
 		closing = 0;
-		for (int i = 0; i < processCnt; ++i) {
+		for (int i = 0; i < processCnt; i++) {
 			if (!finish[i] && check(request[i], A)) {
-				for (int j = 0; j < resourceCnt; ++j) {
+				for (int j = 0; j < resourceCnt; j++) {
 					A[j] += alloc[i][j];
 				}
 				finish[i] = 1;
@@ -66,7 +66,7 @@ int main() {
 	FILE *output = fopen("output.txt", "w");
 	int dlocked = 0;
 
-	for (int i = 0; i < processCnt; ++i) {
+	for (int i = 0; i < processCnt; i++) {
 		if (!finish[i]) {
 			dlocked = 1;
 			fprintf(output, "Process %d is dead locked.\n", i);
