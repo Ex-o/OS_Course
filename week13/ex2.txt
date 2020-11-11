@@ -1,0 +1,5 @@
+Prevention is better when the resources are low and we don't care about wasting them (low device-utilization).
+
+Avoidance is better when the order of finishing processes is not important as we can block for as long as we need but at the end all are going to be finished.
+
+Recovery (preemption) is better when the states of the processes are easily restored/saved.
